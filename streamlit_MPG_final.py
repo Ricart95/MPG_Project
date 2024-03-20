@@ -1,5 +1,6 @@
 import warnings
 import streamlit as st
+import sklearn
 from sklearn.tree import plot_tree
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.preprocessing import LabelEncoder
